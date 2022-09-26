@@ -7,19 +7,21 @@
 		<meta content="en-us" http-equiv="Content-Language" />
 		<title>This is some awesome text</title>
 
-	<body>
+	</head>
 
-		<div>
-			<p><i>This is some awesome text</i></p>
-		</div>
+		<body>
 
-		<table width="200">
-			<tr>
-				<td width="100">Cell 1</td>
-				<td width="100">Cell 2</td>
-			</tr>
-		</table>
+			<div>
+				<p><i>This is some awesome text</i></p>
+			</div>
 
-	</body>
+			<table width="200">
+				<tr>
+					<td width="100">Cell 1</td>
+					<td width="100">Cell 2</td>
+				</tr>
+			</table>
+
+		</body>
 
 </html>
