@@ -1,7 +1,23 @@
-body{
-  background-color:black;
-}
+  body{
+    background-color:black;
+  }
 
-.redPara{
-  color:red;
-}
+  .redPara{
+    color:red;
+  }
+
+  .whitePara{
+    color:white;
+    font-size:80px;
+  }
+
+  #jollyGreen{
+  	color:green;
+  	text-decoration:underline;
+  }
+
+  #--This are tanken from the following page given in the module for reference:  " https://brightspace.brocku.ca/content/enforced/46547-2022-FW-D02-S02-IASC-1P02-ASY/Module%203/style.css "
+
+  .giant{
+	  font-size:40px;
+  }
