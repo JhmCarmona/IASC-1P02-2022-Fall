@@ -1,0 +1,8 @@
+#The following are tools used to help me with programming
+
+#1)Use this link to validate your code in html: https://validator.w3.org/
+#2)Use this link to get useful code: https://www.w3schools.com/
+#3) If #2 does not have what you need check this:
+  > https://www.reddit.com/r/HTML/, and
+  > https://www.reddit.com/r/html5/
+#4) 
