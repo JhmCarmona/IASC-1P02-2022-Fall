@@ -15,3 +15,7 @@
   #smallText{
     font-size:10px;
   }
+
+  .changeFont{
+    font-family: Tahoma;
+  }
