@@ -19,3 +19,9 @@
   div > p{
     background-color: green;
   }
+
+/*targets all  <p> that are immediately after a <div>**/
+
+  div - p{
+    background-color: cyan;
+  }
