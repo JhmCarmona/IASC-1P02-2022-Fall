@@ -9,6 +9,7 @@
   }
 
 /*Now we are gonna put a spcae in between to target all paragraphs that have a div as a parent**/
+
   div p{
   background-color: blue;
   }
