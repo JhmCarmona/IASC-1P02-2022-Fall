@@ -1,11 +1,9 @@
-  body{
-    background-color: black;
+  /* the following is done to target only <p> with class "para1"**/
+
+  p.para1{
+
   }
 
-  div{
-    background-color:  red;
-  }
-
-  span{
-    background-color: green;
+  div,p{
+    background-color: red;
   }
