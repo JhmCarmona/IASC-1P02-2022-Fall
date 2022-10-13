@@ -13,6 +13,8 @@
   background-color: blue;
   }
 
+/*target all the  <p> with a direct* parent <div>**/
+
   div > p{
     background-color: green;
   }
