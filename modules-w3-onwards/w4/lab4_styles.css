@@ -48,4 +48,5 @@ p{
     width: 300px;
     height: 300px;
     margin: 50px;
+    border: 3px solid black;
   }
