@@ -25,3 +25,9 @@
   div + p{
     background-color: cyan;
   }
+
+/*targets all <p> tags with the same parent as <div> tags**/
+
+div ~ p{
+  background-color: orange;
+}
