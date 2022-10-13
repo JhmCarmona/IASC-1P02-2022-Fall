@@ -31,3 +31,13 @@
 div ~ p{
   background-color: orange;
 }
+
+
+
+
+
+  body{
+    background-color: purple;
+    background-color: yellow;
+    background-color: black;
+  }
