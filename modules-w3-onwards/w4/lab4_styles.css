@@ -22,6 +22,6 @@
 
 /*targets all  <p> that are immediately after a <div>**/
 
-  div - p{
+  div + p{
     background-color: cyan;
   }
