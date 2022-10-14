@@ -19,7 +19,7 @@ div{
 
 /* the following line of code uses a "Nested slector" */
 div p{
-  color: orange;
+  color: rgb(255, 165, 0);
 }
 
 /* the following line of code uses an "Immeadiate sibling slector" */
