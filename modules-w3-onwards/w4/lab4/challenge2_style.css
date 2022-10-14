@@ -22,8 +22,8 @@ div{
   color: orange;
   font-size: xx-large;
 }
-/*for some unexplained reason I  */
 
+/* use "super" on "vertical-align: super;" to raised and "sub" to lower the text*/
 
 .spanRaisedFont1{
   font-size: xx-large;
