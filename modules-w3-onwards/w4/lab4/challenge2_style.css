@@ -20,6 +20,7 @@ div{
 
 .paraText1{
   color: orange;
+  vertical-align: sub;
   font-size: xx-large;
 }
 
@@ -38,6 +39,5 @@ div{
 .paraText2{
   color: slateblue;
   font-size: xx-small;
-  vertical-align: sub;
   text-align: right;
 }
