@@ -26,3 +26,7 @@ div p{
 p + p{
   color: rgb(0, 86, 10);
 }
+
+#paraRed{
+  color: red;
+}
