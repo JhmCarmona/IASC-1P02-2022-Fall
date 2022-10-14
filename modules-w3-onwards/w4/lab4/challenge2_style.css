@@ -2,8 +2,8 @@ div{
   width: 14400;
   height: 200px;
   margin: 8px 2px;
-  border: 2px dotted slateblue;
-  padding-top: 80px;
+  border: 2px dashed slateblue;
+  padding-top: 100px;
   text-align: center;
 }
 
