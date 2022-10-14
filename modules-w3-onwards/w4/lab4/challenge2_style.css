@@ -21,5 +21,5 @@ div p{
 
 /* the following line of code uses an "Immeadiate sibling slector" */
 p + p{
-  color: rgb(0, 124, 0);
+  color: rgb(0, 86, 10);
 }
