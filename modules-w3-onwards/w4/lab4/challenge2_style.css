@@ -20,12 +20,12 @@ div{
 
 .paraText1{
   color: orange;
-  vertical-align: sub;
   font-size: xx-large;
 }
 
 .spanRaisedFont1{
   font-size: xx-large;
+  vertical-align: sub;
   color: red;
   }
 
