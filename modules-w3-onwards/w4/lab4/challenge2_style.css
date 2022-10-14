@@ -25,7 +25,6 @@ div{
 
 .spanRaisedFont1{
   font-size: xx-large;
-  vertical-align: text-top;
   color: red;
   }
 
@@ -39,5 +38,6 @@ div{
 .paraText2{
   color: slateblue;
   font-size: xx-small;
+  vertical-align: bottom;
   text-align: right;
 }
