@@ -16,6 +16,7 @@ div{
 #smallGreenText{
   font-size: small;
   color: green;
+  text-align: center;
 }
 
 .orangeText{
