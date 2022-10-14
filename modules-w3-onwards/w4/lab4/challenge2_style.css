@@ -9,11 +9,22 @@ div{
 }
 
 #nomalText{
-  font-size: 14px;
+  font-size: medium;
   color: black;
 }
 
 #smallGreenText{
-  font-size: 7px;
+  font-size: small;
   color: green;
+}
+
+.orangeText{
+  color: orange;
+  font-size: x-large;
+}
+
+.raisedFont{
+  font-size: x-large;
+  color: red;
+  vertical-align: top
 }
