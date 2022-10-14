@@ -23,7 +23,7 @@ div{
   font-size: xx-large;
 }
 
-#spanRaisedFont1{
+.spanRaisedFont1{
   font-size: xx-large;
   color: red;
   vertical-align: top;
