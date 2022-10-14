@@ -2,7 +2,7 @@ div{
   width: 14400;
   height: 200px;
   margin: 8px 2px;
-  border: 2px dashed slateblue;
+  border: 2px dotted slateblue;
   padding-top: 80px;
   text-align: center;
 }
