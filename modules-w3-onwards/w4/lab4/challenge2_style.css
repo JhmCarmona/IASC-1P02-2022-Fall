@@ -1,9 +1,9 @@
 div{
   width: 14400;
-  height: 100px;
+  height: 200px;
   margin: 8px 2px;
   border: 2px dashed slateblue;
-  padding-top: 40px;
+  padding-top: 80px;
   text-align: center;
 }
 
