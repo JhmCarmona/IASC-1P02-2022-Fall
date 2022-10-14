@@ -1,3 +1,22 @@
 body{
   background-color:green;
 }
+
+div{
+
+}
+
+
+/*the following code will use color for individual selectors*/
+/* This link helps your rgb: https://www.w3schools.com/css/css_colors_rgb.asp */
+/* This link has more info onto color properties: https://www.w3schools.com/cssref/pr_text_color.asp */
+
+/* the following line of code uses a "Nested slector" */
+div p{
+  color: orange;
+}
+
+/* the following line of code uses an "Immeadiate sibling slector" */
+p + p{
+  color: rgb(0, 124, 0);
+}
