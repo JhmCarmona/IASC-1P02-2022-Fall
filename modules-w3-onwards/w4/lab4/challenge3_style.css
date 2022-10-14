@@ -1,19 +1,32 @@
+body{
+  background-color:green;
+}
+
 div{
-  width: 95%;
-  height: 30%;
-  margin: 8px 2%;
-  border: 2px dashed slateblue;
-  padding-top: 80%;
-  padding-bottom: 10%;
-  text-align: center;
+  width: 90%;
+  height: 100px;
+  margin: 30px 4%;
+  border: 5px dashed black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
 }
 
-#nomalText{
-  font-size: 14px;
-  color: black;
+
+/*the following code will use color for individual selectors*/
+/* This link helps your rgb: https://www.w3schools.com/css/css_colors_rgb.asp */
+/* This link has more info onto color properties: https://www.w3schools.com/cssref/pr_text_color.asp */
+
+/* the following line of code uses a "Nested slector" */
+div p{
+  color: rgb(255, 120, 0);
 }
 
-#smallGreenText{
-  font-size: 7px;
-  color: green;
+/* the following line of code uses an "Immeadiate sibling slector" */
+p + p{
+  color: rgb(0, 86, 10);
+}
+
+#paraRed{
+  color: rgb(215,0,0);
 }
