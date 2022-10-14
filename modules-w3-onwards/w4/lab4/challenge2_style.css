@@ -22,11 +22,13 @@ div{
   color: orange;
   font-size: xx-large;
 }
+/*for some unexplained reason I  */
+
 
 .spanRaisedFont1{
   font-size: xx-large;
-  vertical-align: super;
   color: red;
+  vertical-align: super;
   }
 
 .spanRaisedFont2{
