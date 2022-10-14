@@ -18,13 +18,26 @@ div{
   text-align: center;
 }
 
-.orangeText{
+.paraText1{
   color: orange;
   font-size: xx-large;
 }
 
-.raisedFont{
+.spanRaisedFont1{
   font-size: xx-large;
   color: red;
   vertical-align: top;
+}
+
+.spanRaisedFont2{
+  font-size: xx-small;
+  color: yellow;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.paraText2{
+  color: slateblue;
+  font-size: xx-small;
+    text-align: right;
 }
