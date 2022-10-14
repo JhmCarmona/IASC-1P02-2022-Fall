@@ -38,6 +38,6 @@ div{
 .paraText2{
   color: slateblue;
   font-size: xx-small;
-  vertical-align: bottom;
+  vertical-align: sub;
   text-align: right;
 }
