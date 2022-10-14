@@ -26,8 +26,8 @@ div{
 .spanRaisedFont1{
   font-size: xx-large;
   color: red;
-  vertical-align: top;
-}
+  vertical-align: sub;
+  }
 
 .spanRaisedFont2{
   font-size: xx-small;
