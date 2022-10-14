@@ -4,8 +4,9 @@ body{
 
 div{
   width: 1200px;
-  height: 150px;
-  border: 7px dashed black;
+  height: 100px;
+  margin: 50px 10px;
+  border: 5px dashed black;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 10px;
