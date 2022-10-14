@@ -3,7 +3,7 @@ div{
   height: 100px;
   margin: 8px 2%;
   border: 2px dashed slateblue;
-  padding-top: 420px;
+  padding-top: 45%;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ div{
   font-size: xx-large;
 }
 
-.spanRaisedFont1{
+#spanRaisedFont1{
   font-size: xx-large;
   color: red;
   vertical-align: top;
@@ -39,5 +39,5 @@ div{
 .paraText2{
   color: slateblue;
   font-size: xx-small;
-    text-align: right;
+  text-align: right;
 }
