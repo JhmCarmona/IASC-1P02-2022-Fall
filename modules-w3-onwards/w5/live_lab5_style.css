@@ -1,0 +1,16 @@
+/* we use grouping below*/
+.p1,.p3{
+  color: green;
+}
+
+/*The rule below replaces the rules for classes: ".p2", & ".p4" */
+p{
+  color: blue;
+}
+
+/* we use nesting below*/
+
+/* this states that all paragraph children of a div are purple*/
+div p{
+  color: purple;
+}
