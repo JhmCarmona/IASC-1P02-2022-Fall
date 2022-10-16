@@ -13,3 +13,29 @@ body{
   height: 50px;
   text-align: center;
 }
+
+#leftbody{
+  float: left;
+  height: 500px;
+  background-color: red;
+  width:190px;
+  padding: 5px;
+}
+
+/* remember that the width of the wrapper is 750px**/
+/*and the above Id already has a 200px width**/
+
+#rightbody{
+  float: left;
+  height: 500px;
+  background-color: orange;
+  width:540px;
+  padding: 5px;
+}
+
+#footer{
+  height: 50px;
+  text-align: center;
+  background-color: purple;
+  clear: both;
+}
