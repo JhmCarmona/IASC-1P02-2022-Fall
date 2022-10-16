@@ -1,0 +1,15 @@
+body{
+  color: blue;
+  background-color: black;
+}
+
+#wrapper{
+  width: 750px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#header{
+  height: 50px;
+  text-align: center;
+}
