@@ -1,4 +1,5 @@
-/* black background to help wtih the text and pic visivility */
+/* black background to help wtih the text and pic visivility **/
+
 body{
   background-color: Black
 }
@@ -7,8 +8,23 @@ p{
   color: red;
 }
 
-/* b/c original picture is too large, we resize it*/
+/* b/c original picture is too large, we resize it**/
+
 #bakumanPic{
-  height: 420;
-  width:auto;
+  height: auto;
+  width: 200px;
+  position: absolute;
+  left: 50px;
+}
+
+#shonnenJump{
+  height: auto;
+  width: 300px;
+  position:fixed;
+  top: 200px;
+  left: 250px;
+}
+
+#positionExample{
+
 }
