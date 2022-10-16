@@ -1,0 +1,14 @@
+/* black background to help wtih the text and pic visivility */
+body{
+  background-color: Black
+}
+
+p{
+  color: red;
+}
+
+/* b/c original picture is too large, we resize it*/
+#bakumanPic{
+  height: 420;
+  width:auto;
+}
