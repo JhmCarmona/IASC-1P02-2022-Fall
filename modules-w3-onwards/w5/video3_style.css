@@ -1,13 +1,17 @@
 .topLeft{
   position:fixed;
 
+  color:red;
   top:50px;
+  z-index: 1;
   left:50px;
 }
 
 .topLeft2{
   position:fixed;
 
+  color:blue;
   top:50px;
+  z-index: 10;
   left:50px;
 }
