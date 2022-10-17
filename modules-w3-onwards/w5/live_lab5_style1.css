@@ -15,16 +15,20 @@ p{
   width: 200px;
   position: absolute;
   left: 50px;
+  z-index: -1
 }
 
 #shonnenJump{
   height: auto;
   width: 300px;
   position:fixed;
-  top: 200px;
-  left: 250px;
+  top: 30px;
+  left: 60px;
+  z-index: -3
 }
 
 #positionExample{
-
+  position: relative;
+  top: 50px;
+  color: blue;
 }
