@@ -1,18 +1,16 @@
 body{
 	color: white;
 	background-color: white;
-  width:750px;
 }
-
 
 #wrapper{
 	width:750px;
 	margin:0 auto;
-	background-color: white;
+  background-color: white;
 }
 
 #header{
-	height:50px;
+	height:45px;
 	text-align:center;
   background-color: red;
   top:5px;
@@ -22,12 +20,13 @@ body{
   float: left;
 	height: 500px;
 	background-color: green;
-  width:750px;
+  width:740px;
+  padding: 5px;
 }
 
 #bottom{
 	height:50px;
-  text-align:left;
+  text-align: left;
   background-color: blue;
-  clear:both;
+  clear: both;
 }
