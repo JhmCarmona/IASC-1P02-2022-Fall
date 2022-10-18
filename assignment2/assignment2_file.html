@@ -24,66 +24,94 @@
 
 			<div class="links">
 
-				<a href="https://www.youtube.com/watch?v=N-GFJ7FGEok"> 1) Click on this absolute link to check out my study playlist!</a><br />
-
-				<a href="assignment2_file_for_linking.html">Click here to visit an Internal link (relative)</a><br />
+				<a href="https://www.youtube.com/watch?v=N-GFJ7FGEok"> 1) Click on this absolute link to check out my study playlist!</a>
 
 			</div>
 
-	      <a href="#bottom"> Hello friend! Please, click here to help you go to the bottom of the page.</a><br />
+			<div class="links">
 
-	    <h3>The Following Two lists (Order and Unordered List): </h3>
+				<a href="assignment2_file_for_linking.html"> 2) Click here to visit an Internal link (relative)</a>
 
-	    <h3>The Following is a List of The Best Football Leagues in Europe:</h3>
+			</div>
 
-	    <ol>
-	      <li>The Premier League(Englad)</li>
-	      <li>La Liga (Spain)</li>
-	      <li>Bundesliga (Germany)</li>
-	      <li>Serie A (Italy)</li>
-	      <li>Ligue 1 (France)</li>
-	    </ol><br />
+			<div id="pageAnchor">
 
-	    <h3>The Following is a List of Some of my Favorite Anime</h3>
+				<a href="#bottom"> Hello friend! Please, click here to help you go to the bottom and check out my "Box model".</a>
 
-	    <ul>
-	      <li>Yuyu Hakusho</li>
-	      <li>Dragon Ball Z</li>
-	      <li>Monster</li>
-	      <li>Spy x Family</li>
-	      <li>Hunter x Hunter</li>
-	    </ul>
+			</div>
+
+
+			<div class="titles2">
+				<h3>The Following Two lists (Order and Unordered List): </h3>
+			</div>
+
+
+			<div class="list1">
+
+				<h3> These are the Best Football Leagues in Europe:</h3>
+
+				<ol>
+		      <li>The Premier League(Englad)</li>
+		      <li>La Liga (Spain)</li>
+		      <li>Bundesliga (Germany)</li>
+		      <li>Serie A (Italy)</li>
+		      <li>Ligue 1 (France)</li>
+		    </ol>
+
+			</div>
+
+			<div class="list1">
+
+				<h3>These are Some of my Favorite Anime</h3>
+
+		    <ul>
+		      <li>Yuyu Hakusho</li>
+		      <li>Dragon Ball Z</li>
+		      <li>Monster</li>
+		      <li>Spy x Family</li>
+		      <li>Hunter x Hunter</li>
+		    </ul>
+
+			</div>
+
+<!--* CSS will be used on the following images to such that there is one positioned absolutely,another relatively, and another one fixed -->
+<!--* This also accounts for the internal and absolute image rquirements in addition to another picture to satisfy the above requirements-->
+
+		<div id="images">
 
 	    <h3>Check Out These Posters Fom My Favorite Teams:</h3>
 
+			<!--element that is positioned absolutely-->
+	    <img id="leicesterPoster" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LCFC_lift_the_Premier_League_Trophy_%2826943755296%29_%28cropped%29.jpg/450px-LCFC_lift_the_Premier_League_Trophy_%2826943755296%29_%28cropped%29.jpg" alt=" Leicester City Premier League Champions">
 
-	    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LCFC_lift_the_Premier_League_Trophy_%2826943755296%29_%28cropped%29.jpg/450px-LCFC_lift_the_Premier_League_Trophy_%2826943755296%29_%28cropped%29.jpg" alt=" Leicester City Premier League Champions">
+			<!--element that is positioned-->
+	    <img id="ajaxPoster" src="Ajax.jpg" alt="Johan Cruyff">
 
-	    <img src="Ajax.jpg" alt="Johan Cruyff">
+		</div>
 
-			<div>
-				<p>This is some awesome text</p>
-			</div>
+			<!--eleemnt that is positioned relatively-->
+
+			<img  id="teamCanada" src="canadian_national_team.png" alt="This is the logo of the Canadian National Soccer Team">
 
 
-	    <a name="bottom">Hey, there!</a>
 
 	    <!-- The Content Below will be used to demostrate the use of a Box with CSS and to show case the use of two paragraphs -->
 
-	    	<div id="wrapper" >
+	    	<div id="boxModel">
 
 
-	        <div id="header"> <h3>This is my page</h3> </div>
-	        <div id="leftbody">
+	        <div id="mainBody">
+
+						<h3 id="paraTitle">This is why the 1990's was the best era for anime</h3>
+
 	          <p>In this paragrpah I will describe why 90s animes are the best. first
 	             From an art point of view, 1990s anime offer a great diversity on the
 	             art style being used. The use of colors variates greatly, and
 	             independent studios had more freedom to create high quality content
 	             with less coporate oversight. This allow artist to explore their
 	             creativity, while writers could take greater risk in their story
-	             telling.</p>
-	        </div>
-	        <div id="rightbody">
+	             telling.</p></br>
+
 	          <p>Therefore, the question is: What happened to Japanese anime? Well,
 	          the answer lies in a series of factors. First, the finantial crisis of
 	          the 1990s lead to increase fiscal responsability on the part of Japanese
@@ -94,8 +122,11 @@
 	          took over. Now writters and animators had to proof that their ideas,
 	          would find a market.</p>
 	        </div>
-	        <div id="footer"> 1990s Anime Rock! </div>
+
+
 	      </div>
+
+	    <a name="bottom">Hey, there please check out my use of the box mode!</a>
 
 		</div>
 

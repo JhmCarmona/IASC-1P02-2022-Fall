@@ -18,40 +18,97 @@ body{
   text-align: center;
 }
 
+.titles2{
+  width: 992px;
+  height: 30px;
+  margin: 8px 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
 .links{
   width: 992px;
   height: 30px;
   padding-top: 2px;
-  padding-bottom: 2px;
   padding-left: 5px;
+  padding-bottom: 2px;
   text-align:left;
 }
 
-#header{
-	height:50px;
-	text-align:center;
-  background-color: red;
+#pageAnchor{
+  width: 992px;
+  margin: 10px 2px;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  text-align:left;
 }
 
-#leftbody{
+/* */
+
+.list1{
+  width: 992px;
+  height: 160px;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  text-align:left;
+}
+
+#images{
+  width:1000px;
+  margin:0 auto;
+  background-color: white;
+}
+/* The following CSS code uses to satisfy the requirements for an elements that is position absolute, one that is position fixed, and another that is relative*/
+#leicesterPoster{
+  position: absolute;
+  height: auto;
+  width:300px;
+  left: 50px;
+}
+
+#ajaxPoster{
+  position: relative;
+  height: auto;
+  width:300px;
+  top: 20px;
+}
+
+#teamCanada{
+  position: fixed;
+  height: auto;
+  width:50px;
+  top: 500px;
+  left: 800px;
+}
+
+
+/*The following code will use CSS for styling the "Box Model" and to apply all text related CSS code */
+
+#boxModel{
+ width: 996px;
+ height: 510px;
+ margin: 2px 2px;
+ border: 2px solid slateblue;
+ padding-top: 5px;
+ text-align: center;
+}
+
+#mainBody{
   float: left;
 	height: 500px;
 	background-color: pink;
-  width:270px;
-}
-
-#rightbody{
-  float: left;
-  height: 500px;
-  background-color: orange;
-  width:530px;
+  width:990px;
+  text-align:center;
 }
 
 
-#footer{
+#paraTitle{
 	height:50px;
   text-align: center;
-  color: white;
-  background-color: yellow;
+  color: red;
   clear: both;
 }
