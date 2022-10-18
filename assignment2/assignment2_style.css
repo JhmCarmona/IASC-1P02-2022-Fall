@@ -5,6 +5,7 @@ body{
 
 #wrapper{
 	width:1000px;
+  height: auto;;
 	margin:0 auto;
   background-color: white;
 }
@@ -57,7 +58,29 @@ body{
   text-align:left;
 }
 
+/* The following CSS code will be used for NEESTING & GROUPING */
+
+/* grouing */
+.li1,.li2,.li3,.li5{
+  color: green;
+}
+
+.li4{
+  color: orange;
+}
+
+/* Nesting*/
+#li6{
+  color: orange;
+}
+
+ul li{
+  color: green;
+}
+
+
 #images{
+  height:700px;
   width:1000px;
   margin:0 auto;
   background-color: white;
@@ -67,48 +90,54 @@ body{
   position: absolute;
   height: auto;
   width:300px;
-  left: 50px;
+  right: 630px;
 }
 
 #ajaxPoster{
   position: relative;
   height: auto;
   width:300px;
-  top: 20px;
+  top: 300px;
+  left: 333px;
 }
 
 #teamCanada{
   position: fixed;
   height: auto;
-  width:50px;
-  top: 500px;
-  left: 800px;
+  width:70px;
+  top: 600px;
+  left: 1200px;
 }
 
 
 /*The following code will use CSS for styling the "Box Model" and to apply all text related CSS code */
+/* All of the Text related requirements will be satfied within the box model*/
+
 
 #boxModel{
- width: 996px;
+ width: 982px;
  height: 510px;
- margin: 2px 2px;
+ margin: 2px;
  border: 2px solid slateblue;
- padding-top: 5px;
- text-align: center;
+ padding: 5px;
+ background-color: pink;
 }
 
-#mainBody{
-  float: left;
-	height: 500px;
-	background-color: pink;
-  width:990px;
-  text-align:center;
+#content{
+  color: white;
 }
-
 
 #paraTitle{
 	height:50px;
   text-align: center;
   color: red;
-  clear: both;
+}
+
+.paraText{
+  color: slateblue;
+  font-size: large;
+  font-style: italic;
+  text-align: left;
+  text-transform: uppercase;
+
 }
