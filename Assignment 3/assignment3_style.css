@@ -5,6 +5,7 @@ body{
 
 .wrapper{
   width: 1200px;
+  height: 975px;
   margin: 0 auto;
   background-color: #03D5F8;
 }
@@ -70,4 +71,39 @@ float: left;
   float: right;
   font-style: italic;
   text-decoration: underline;
+}
+
+.leftBody{
+  background-color: #059EE0;
+  width: 950px;
+  height: 800px;
+  margin: 25px;
+  float: left;
+}
+
+.topSection{
+  background-color: #059EE0;
+  width: 950px;
+  height: 400px;
+}
+
+.bottomSection{
+  background-color: #059EE0;
+  width: 950px;
+  height: 400px;
+}
+
+.rightBody{
+  background-color: #059EE0;
+  width: 150px;
+  height: 800px;
+  margin: 25px;
+  float: right;
+}
+
+.footer{
+  background-color: #059EE0;
+  width: 1200px;
+  height: 65px;
+  clear: both;
 }
