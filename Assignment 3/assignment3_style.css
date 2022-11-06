@@ -1,0 +1,25 @@
+body{
+  color: white;
+  background-color: black;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #03D5F8;
+}
+
+.navHeader{
+  background-color: #059EE0;
+  width: 1200px;
+  height: 65px;
+}
+
+.logo{
+  height: 65px;
+  width: 255.125px;
+}
+
+.div1{
+
+}
