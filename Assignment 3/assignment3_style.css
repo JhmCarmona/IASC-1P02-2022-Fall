@@ -17,7 +17,7 @@ body{
 }
 
 #logo{
-float: left;
+  float: left;
   height: 65px;
   width: auto;
 
@@ -82,15 +82,73 @@ float: left;
 }
 
 .topSection{
-  background-color: #059EE0;
+  background-color: #1893C9;
   width: 950px;
   height: 400px;
 }
+
+#pic1{
+  width: 250px;
+  height: 181px;
+  margin-top: 120px;
+  margin-left: 40px;
+}
+
+#pic2{
+  width: 300px;
+  height: 260px;
+  margin-top: 41px;
+  margin-left: 20px;
+
+}
+
+#pic3{
+  width: 250px;
+  height: 161px;
+  margin-top: 110px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.pic4{
+  width: 162px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 395px;
+  clear: both;
+}
+
+.pic5{
+  width: 162px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 395px;
+  clear: both;
+}
+
 
 .bottomSection{
   background-color: #059EE0;
   width: 950px;
   height: 400px;
+  clear: both;
+}
+
+.communityPOST{
+  text-align:inherit;
+  width: 500px;
+  margin-left: 200px;
+  height: 300px;
+  padding-top: 10px;
+}
+
+#title1{
+  text-align: center;
+  padding-left: 5px;
+}
+
+#title2{
+  font-weight: bold;
 }
 
 .rightBody{
@@ -101,9 +159,43 @@ float: left;
   float: right;
 }
 
-.footer{
-  background-color: #059EE0;
-  width: 1200px;
-  height: 65px;
-  clear: both;
+#div7{
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: right;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.log_in1{
+  text-align: left;
+  width: 150px;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.log_in2{
+  text-align: left;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-style: italic;
+  text-decoration:underline;
+}
+
+.footerDIV{
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+
+.foot{
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 50px;
+  float: left;
 }
