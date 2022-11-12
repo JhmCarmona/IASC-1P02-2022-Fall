@@ -13,7 +13,42 @@
 
   <body>
     <p>Jascript</p>
-  </body>
+
+		<p id="innitial">Text will change here</p>
+
+		<p id="one">Paragraph numero uno! Cats are the best!</p>
+		<p id="two">My cat will yell at me for food soon</p>
+		<p id="three">And yet, it is *no* yet her fiid time</p>
+
+		<button type="button" onclick="changeText()">Change the Text</button>
+		<button type="button" onclick="changeTextBack()">Change it back</button>
+		<button type="button" onclick="fancyfulText()">Activate fanciness!</button>
+
+ <!--1)We are gonna create a <p></p> element with the td needed for function
+"function argExample(){}" -->
+
+		<p id="mathResult">N/A</p>
+
+<!-- 2) we are going to create a button like we did above for our new function
+argument -->
+
+    <button type="button" onclick="argExample()">2 + 2</button>
+<!--You will notice that the above won't create a useful out,
+the reason is that the parameters which are located inside "()" are empty-->
+
+<!--3)  therefore, we will now create a few buttons and give the code it's
+appropiate paraters -->
+
+		<button type="button" onclick="argExample(8,15)">8 + 15</button>
+		<button type="button" onclick="argExample(12,22)">12 + 22</button>
+		<button type="button" onclick="argExample(2,3)">2 + 3</button>
+		<button type="button" onclick="argExample(8,5)">8 + 5</button>
+		<button type="button" onclick="argExample(0,7)">0 + 7</button>
+
+<!-- As you can see it is quite useful that we can reuse functions to label
+lessen the workload  -->
+	</body>
+
 
 
 </html>
