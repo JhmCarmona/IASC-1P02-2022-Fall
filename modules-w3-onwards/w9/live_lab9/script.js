@@ -42,3 +42,18 @@ console.log(6 + 8 + "five" + 4 + 3);
 /*2) we make integer "4" a string by being inside "", thefore all else
 coming aftwards will be read as a string*/
 console.log(1 + 2 + 3 + "4" + 5);
+
+
+
+//POP-UPS
+
+
+//var myAlert = alert("Neo, I must warned you of the imminent danger. DO NOT PRESS OK!");
+//console.log(myAlert);
+//-------------------------------
+//var myConfirm = confirm("Is this today's date?:" + todayDate)
+//console.log(myConfirm);
+
+//-------------------------------------------------
+//var myPrompt = prompt("Tell me a joke!:")
+//console.log(myPrompt);
