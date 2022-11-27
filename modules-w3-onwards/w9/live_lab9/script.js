@@ -55,5 +55,17 @@ console.log(1 + 2 + 3 + "4" + 5);
 //console.log(myConfirm);
 
 //-------------------------------------------------
-//var myPrompt = prompt("Tell me a joke!:")
-//console.log(myPrompt);
+var myPrompt = prompt("Tell me a joke!:")
+console.log(myPrompt);
+
+/* We will now create a function to connect with our submit button, and link it
+with some id's to send that info to the console */
+
+function formOutputs(){
+  console.log(document.getElementById("basicText").value);
+  console.log(document.getElementById("basicPass").value);
+}
+
+/* the function above includes in it's "console.log" a section call "value"
+this is because we want to have the value of the basicText input and
+ basicPass */

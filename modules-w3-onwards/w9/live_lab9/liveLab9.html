@@ -15,18 +15,68 @@
 		<button type="button" onclick="displayDate()">Show the date!</button>
 		<p id="theDate">Date will go here</p>
 
+ <!-- Forms-->
+
 		<form name="myForm">
 			<label for="basicText">Cat Name</label>
 			<br/>
 			<input type="text" name="basicText" id="basicText" value="Enter a cat's name here!">
 			<br/>
+
 			<textarea  rows="8" cols="45" id="basicTextArea">Text areas are weird! TA does not recommened it!</textarea>
 			<br/>
+
 			<label for="basicPass">Enter password here:</label>
 			<br/>
 			<input type="password" name="basicPass" id="basicPass" value="12345" />
 			<br/>
-			<label for=""></label>
+
+ <!-- Radio labels-->
+
+			<label for="radioInput">Select the Cat's Colour:</label>
+			<br/>
+			<label for="radioInput">Orange</label>
+			<input type="radio" name="radioInput" value="orange" />
+			<br/>
+			<label for="radioInput">Grey</label>
+			<input type="radio" name="radioInput" value="grey" />
+			<br/>
+			<label for="radioInput">Black</label>
+			<input type="radio" name="radioInput" value="black" />
+			<br/>
+
+			<!-- Checkbox-->
+			<label for="checkInput">Select Cat Features</label>
+			<br/>
+			<label for="checkInput1">Stripes</label>
+			<input type="checkbox" name="checkInput1" value="stripes" />
+			<br/>
+			<label for="checkInput2">Fluffy Tail</label>
+			<input type="checkbox" name="checkInput2" value="fluffy tail">
+			<br/>
+			<label for="checkInput3">Cuddly</label>
+			<input type="checkbox" name="checkInput3" value="cuddly">
+			<br/>
+
+			<!--Key differences from Radio structure:
+		   1) "label" has  (for = "") you must include a uni name,
+		   think of ID.
+		   2) "input" has a (type="checkbox") the (name="")mus match
+		 the (for="") from the label above it.  -->
+
+		 <!--Buttons.
+	 		There are 3 types of buttons:-->
+
+			<!--1)button: Allows us to  -->
+
+			<button type="button" onclick="formOutputs()">Log to Console</button>
+			<button type="reset">Clear Data</button>
+
+			<!-- <button type="submit" ></button> -->
+			<!-- the submit botton, submits the content of the form to another page where a back-end
+			language takes care of the data, and the refreshes the page, it eh user is note sent
+			to another page.  The use of tthe submit button is beyond the scope of this class-->
+
 
 		</form>
 
