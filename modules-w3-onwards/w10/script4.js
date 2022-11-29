@@ -67,22 +67,33 @@ else {
 
 -------------------------------------------------------------------------- */
 
-/* Example 5: We will use both the "if" and "else" statements but
-this time we will  change "==" condition to greater than. */
+/* Example 6: We will use the "if", "else if" and "else" statements but
+this time we will  make "if "  equals as a condition, and "else if" greater
+than, and include "else" */
 
-/* RESULT: in this occasion since the "if" statement is stasfied, it will
-be applied */
+/* RESULT: in this occasion since the "if" statement is  not stasfied, but
+ "else if is satiesfied, then "else if" will be applied */
+
+// Note: if "else if" is not satisfied, either then "else" will be applied
 
 var num1 = 7;
 var num2 = 5;
 
-if (num1 = num2) {
-  document.write("Number 1 equals to number2!")
+if (num1 == num2){
+  document.write("Number 1 equals to number 2!");
 }
 
-else if (num1 > num2) {
-  document.write("Number 1 is greater than Number 2")
+else if (num1 > num2){
+  document.write("Number 1 is greater than Number 2");
 }
 else {
-  document.write("Number1 doesn't not equal number2")
+  document.write("Number 1 doesn't not equal number 2");
 }
+
+
+
+
+
+
+
+a
