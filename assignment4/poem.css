@@ -32,41 +32,34 @@ body{
   height: 100px;
   width: auto;
 
-/* Buttons created to connect all the pages in the website to each other */
+}
 
-}
-.buttonNav1{
-  background-color: #202124; 
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  margin-left: 25px;
+#web1{
+  text-align: left;
   padding-top: 8px;
-  padding-right: 25px;
-  padding-bottom: 13.6px;
-  padding-left: 25px;
-  height: 40;
+  margin-left: 50px;
   float: left;
 }
-.buttonNav{
-  background-color: #202124;
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  margin-right: 1px;
-  margin-left: 1px;
+
+#web2{
+  text-align: left;
   padding-top: 8px;
-  padding-right: 25px;
-  padding-bottom: 13.6px;
-  padding-left: 25px;
-  height: 40;
+  margin-left: 50px;
+  float: left;}
+
+#web3{
+  text-align: left;
+  padding-top: 8px;
+  margin-left: 50px;
   float: left;
 }
-/*---------------------------------------------------------------------------*/
+
+#web4{
+  text-align: left;
+  padding-top: 8px;
+  margin-left: 50px;
+  float: left;
+}
 
 .leftBody{
   width: 30%;
@@ -86,26 +79,41 @@ body{
   margin-top: 40px;
   margin-left: 0px;
   padding-top: 40px;
-  padding-bottom: 34px;
+  padding-bottom: 146px;
   padding-left: 50px;
   background-color: #10100e;
   float: left;
 }
-
-#memeGoku{
-  width: 500px;
-  height:auto;
+/* This code uses CSS to center the title-------------------------------------*/
+#poetryTitle{
+  text-align: center;
+}
+/* This code uses CSS bolden the the number of the stanza in the poem---------*/
+.boldForPoem{
+  font-weight: bold;
 }
 
-#memeAnime{
-  width: 500px;
-  height:auto;
+/* this code will use CSS to:
+1) create a double space along the poem's stanzas
+2) change the font style to italic
+3) chose a different font family----------------------------------------------*/
+#theChargeOfTheLightBrigade{
+  line-height: 2;
+  font-style: italic;
+  font-family: Georgia, serif;
 }
-
+#lordTennyson{
+  padding-top: 25px;
+}
+.lightBrigade{
+  width: 400px;
+  height:auto;
+  padding-bottom: 131px;
+}
 .footer{
   width: 100%;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 26px;
   float: left;
   clear: both;
   background-color: #10100e;

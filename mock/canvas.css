@@ -1,201 +1,115 @@
 body{
   color: white;
-  background-color: black;
+  background-color: white;
 }
 
 .wrapper{
-  width: 1200px;
-  height: 975px;
-  margin: 0 auto;
-  background-color: #03D5F8;
+  width: inherit;
+  height:auto;
+  background-color: #323232;
 }
 
-.navHeader{
-  background-color: #059EE0;
-  width: 1200px;
-  height: 65px;
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: #10100e;
+}
+
+.nav{
+  background-color: #10100e;
+  height: 40px;
+}
+
+#title1{
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 30px;
 }
 
 #logo{
   float: left;
-  height: 50px;
+  height: 100px;
   width: auto;
 
 }
 
-#div1{
+.buttonNav{
   text-align: left;
-  margin-top: 40px;
+  padding-top: 8px;
   margin-left: 50px;
+  height: 40;
   float: left;
 }
 
-#div2{
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 50px;
-  float: left;
-}
-
-#div3{
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 50px;
-  float: left;
-}
-
-#div4{
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 50px;
-  float: left;
-}
-
-#div5{
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 50px;
-  float: left;
-}
-
-#div6{
-  text-align: left;
-  margin-top: 40px;
-  margin-left: 50px;
-  float: left;
-}
-#div7{
-  text-align: left;
-  margin-top: 40px;
-  margin-right: 30px;
-  float: right;
-  font-style: italic;
-  text-decoration: underline;
-}
 
 .leftBody{
-  background-color: #059EE0;
-  width: 950px;
-  height: 800px;
-  margin: 25px;
+  width: 30%;
+  padding-top:30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 10%;
+  background-color: #10100e;
   float: left;
-}
-
-.topSection{
-  background-color: #1893C9;
-  width: 950px;
-  height: 400px;
-}
-
-#pic1{
-  width: 250px;
-  height: 181px;
-  margin-top: 120px;
-  margin-left: 40px;
-}
-
-#pic2{
-  width: 300px;
-  height: 260px;
-  margin-top: 41px;
-  margin-left: 20px;
-
-}
-
-#pic3{
-  width: 250px;
-  height: 161px;
-  margin-top: 110px;
-  margin-left: 50px;
-  margin-right: 20px;
-}
-
-.pic4{
-  width: 162px;
-  height: 25px;
-  margin-top: 25px;
-  margin-left: 395px;
-  clear: both;
-}
-
-.pic5{
-  width: 162px;
-  height: 25px;
-  margin-top: 25px;
-  margin-left: 395px;
-  clear: both;
-}
-
-
-.bottomSection{
-  background-color: #059EE0;
-  width: 950px;
-  height: 400px;
-  clear: both;
-}
-
-.communityPOST{
-  text-align:inherit;
-  width: 500px;
-  margin-left: 200px;
-  height: 300px;
-  padding-top: 10px;
-}
-
-#title1{
-  text-align: center;
-  padding-left: 5px;
-}
-
-#title2{
-  font-weight: bold;
 }
 
 .rightBody{
-  background-color: #059EE0;
-  width: 150px;
-  height: 800px;
-  margin: 25px;
-  float: right;
-}
-
-#div7{
-  text-align: left;
+  width: 38%;
   margin-top: 40px;
-  margin-left: 30px;
-  float: right;
-  font-style: italic;
-  text-decoration: underline;
+  margin-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 146px;
+  padding-left: 50px;
+  background-color: #10100e;
+  float: left;
 }
-
-.log_in1{
-  text-align: left;
-  width: 150px;
-  padding-top: 120px;
-  padding-bottom: 30px;
-  padding-left: 10px;
+/* This code uses CSS to center the title-------------------------------------*/
+#poetryTitle{
+  text-align: center;
+}
+/* This code uses CSS bolden the the number of the stanza in the poem---------*/
+.boldForPoem{
   font-weight: bold;
 }
 
-.log_in2{
-  text-align: left;
-  width: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+/* this code will use CSS to:
+1) create a double space along the poem's stanzas
+2) change the font style to italic
+3) chose a different font family----------------------------------------------*/
+#theChargeOfTheLightBrigade{
+  line-height: 2;
   font-style: italic;
-  text-decoration:underline;
+  font-family: Georgia, serif;
 }
-
-.footerDIV{
-  margin-left: 310px;
-  margin-right: 310px;
+#lordTennyson{
+  padding-top: 10px;
 }
-
-
-.foot{
+.lightBrigade{
+  width: 400px;
+  height:auto;
+  padding-bottom: 130.4px;
+}
+.footer{
+  width: 100%;
   text-align: left;
   margin-top: 25px;
-  margin-left: 50px;
+  float: left;
+  clear: both;
+  background-color: #10100e;
+}
+
+.footerElements{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.foot{
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-bottom: 20px;
   float: left;
 }
