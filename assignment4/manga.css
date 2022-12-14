@@ -1,0 +1,166 @@
+
+body{
+  color: white;
+  background-color: white;
+}
+
+.wrapper{
+  width: inherit;
+  height:auto;
+  background-color: #323232;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: #10100e;
+}
+
+.nav{
+  background-color: #10100e;
+  height: 40px;
+}
+
+#title1{
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+#logo{
+  float: left;
+  height: 100px;
+  width: auto;
+}
+/* Buttons created to connect all the pages in the website to each other */
+
+.buttonNav1{
+  background-color: #202124;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 25px;
+  padding-top: 8px;
+  padding-right: 25px;
+  padding-bottom: 13.6px;
+  padding-left: 25px;
+  height: 40;
+  float: left;
+}
+.buttonNav{
+  background-color: #202124;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding-top: 8px;
+  padding-right: 25px;
+  padding-bottom: 13.6px;
+  padding-left: 25px;
+  height: 40;
+  float: left;
+}
+/*---------------------------------------------------------------------------*/
+
+.mainBody{
+  width: 75%;
+  padding-top:30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-top: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #10100e;
+  float: left;
+}
+
+/*  Part 1. Let's get to know each other :)!!    */
+#bodyTitle{
+  text-align: center;
+}
+
+.section{
+  font-weight:bold;
+}
+
+/* Part 2. Pop Quiz time. Let's make sure you didn't fall at sleep on me!! */
+
+.hide{
+  display: none;
+}
+
+
+.woof:hover + .hide {
+  display: block;
+  color: green;
+}
+
+
+.answerB:hover + .hide {
+  display: block;
+  color: red;
+}
+
+/* Part 3. Vanilla calculator!! */
+
+.answerDecor {
+    margin: 20px;
+    padding: 20px;
+    background-color: #202124;;
+}
+
+#calculator1 {
+  margin: 20px;
+  padding: 20px;
+  padding-left: 200px;
+  background-color: #202124;
+}
+/* Part 4. Cool button!! */
+
+#universityMeme{
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+}
+
+#uniMeme{
+  width: 800px;
+  height: auto;
+  margin-left: 100px;
+}
+
+/* Part 5. Cool buttons!! */
+#answerGTA{
+  font-weight: bold;
+  color: red;
+}
+
+/* footer elements CSS code*/
+.footer{
+  width: 100%;
+  text-align: left;
+  margin-top: 26px;
+  float: left;
+  clear: both;
+  background-color: #10100e;
+}
+
+.footerElements{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.foot{
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-bottom: 20px;
+  float: left;
+}

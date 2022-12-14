@@ -31,19 +31,43 @@ body{
   float: left;
   height: 100px;
   width: auto;
-
 }
+/* Buttons created to connect all the pages in the website to each other */
 
-.buttonNav{
-  text-align: left;
+.buttonNav1{
+  background-color: #202124;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 25px;
   padding-top: 8px;
-  margin-left: 50px;
+  padding-right: 25px;
+  padding-bottom: 13.6px;
+  padding-left: 25px;
   height: 40;
   float: left;
 }
+.buttonNav{
+  background-color: #202124;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding-top: 8px;
+  padding-right: 25px;
+  padding-bottom: 13.6px;
+  padding-left: 25px;
+  height: 40;
+  float: left;
+}
+/*---------------------------------------------------------------------------*/
 
-
-.leftBody{
+.mainBody{
   width: 30%;
   padding-top:30px;
   padding-right: 50px;
@@ -67,7 +91,7 @@ body{
   float: left;
 }
 /* This code uses CSS to center the title-------------------------------------*/
-#poetryTitle{
+#appTitle{
   text-align: center;
 }
 /* This code uses CSS bolden the the number of the stanza in the poem---------*/
@@ -85,17 +109,17 @@ body{
   font-family: Georgia, serif;
 }
 #lordTennyson{
-  padding-top: 10px;
+  padding-top: 25px;
 }
 .lightBrigade{
   width: 400px;
   height:auto;
-  padding-bottom: 130.4px;
+  padding-bottom: 131px;
 }
 .footer{
   width: 100%;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 26px;
   float: left;
   clear: both;
   background-color: #10100e;

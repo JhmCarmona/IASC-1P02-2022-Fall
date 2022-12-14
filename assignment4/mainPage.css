@@ -16,7 +16,7 @@ body{
 }
 
 .nav{
-  background-color: #10100e;
+  background-color: #202124;
   height: 40px;
 }
 
@@ -36,22 +36,23 @@ body{
 
 }
 .buttonNav1{
-  background-color: #202124; 
+  background-color: #323232;
   color: white;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   text-align: center;
   margin-left: 25px;
-  padding-top: 8px;
-  padding-right: 25px;
-  padding-bottom: 13.6px;
-  padding-left: 25px;
+  margin-right: 1px;
+  padding-top: 6px;
+  padding-right: 23px;
+  padding-bottom: 14px;
+  padding-left: 23px;
   height: 40;
   float: left;
 }
 .buttonNav{
-  background-color: #202124;
+  background-color: #323232;
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -59,10 +60,10 @@ body{
   text-align: center;
   margin-right: 1px;
   margin-left: 1px;
-  padding-top: 8px;
-  padding-right: 25px;
-  padding-bottom: 13.6px;
-  padding-left: 25px;
+  padding-top: 6px;
+  padding-right: 23px;
+  padding-bottom: 14px;
+  padding-left: 23px;
   height: 40;
   float: left;
 }

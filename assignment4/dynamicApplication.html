@@ -1,0 +1,143 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Jhon Morales</title>
+		<link href="dynamicApplication.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="dynamicApplication.js"></script>
+	</head>
+
+	<body class="wrapper">
+
+ <!-- header + nav                                                           -->
+      <div class="header">
+
+          <img id="logo" src="logo.jpg" alt="myLogo">
+          <div id="title1">Jhon Morales' Page</div>
+
+         <!-- The following are buttons with a link to the other pages in the website and with a simple color style-->
+        <div class="nav">
+          <a href="https://jhmcarmona.github.io/IASC-1P02-2022-Fall/assignment4/mainPage.html" class="buttonNav1">Homepage</a>
+          <a href="https://jhmcarmona.github.io/IASC-1P02-2022-Fall/assignment4/poetry.html" class="buttonNav">Poetry</a>
+          <a href="https://jhmcarmona.github.io/IASC-1P02-2022-Fall/assignment4/dynamicApplication.html" class="buttonNav">Dynamic Applications</a>
+        </div>
+
+
+      </div>
+
+<!--  main body                                                              -->
+      <div class="mainBody">
+
+          <h2 id="bodyTitle">Let's Check out Some Simple Javascript in Combination with CSS and HTML!</h2><br>
+
+
+<!-- p1                                                                      -->
+          <h3 class="section"> Part 1. Let's get to know each other :)!!</h3>
+
+
+            <div class="answerDecor">
+
+                <p>Hello, there visitor. Name is Jhon, I am a third year economics student. What's you name?</p>
+                <button onclick="myQuestion1()">Answer</button>
+                <p id="answer"></p><br>
+
+                <p>How's the weather?</p>
+                <button onclick="myQuestion2()">Answer</button>
+                <p id="answer2"></p><br>
+
+                <p>Have you tried the food at Brock's Market?</p>
+                <button onclick="myQuestion3()">Answer</button>
+                <p id="answer3"></p><br>
+
+                <p>So what are your plans during the winter brake?</p>
+                <button onclick="myQuestion4()">Answer</button>
+                <p id="answer4"></p><br>
+
+              </div>
+
+<!-- p2                                                                      -->
+        <h3 class="section">Part 2. Pop Quiz time. Let's make sure you didn't fall at sleep on me!!</h3>
+
+          <div class="answerDecor">
+
+              <p>Whose a human's best friend? (Hover over a and/or b to find out!)</p>
+
+                <div class="woof">A. Dog</div>
+                    <div class="hide">That's right, you got it ^o^(>^_^)>(>^_^)>.</div>
+                <div class="answerB">B. Cat</div>
+                    <p class="hide">Friend? that's not the way you talk to your master!  \(>.<)/ </p>
+
+          </div>
+
+<!--p3                                                                       -->
+        <br><h3 class="section">Part 3. Ultra vanilla calculator!</h3>
+
+        <div id="calculator1">
+            <input type="number" name="" id="num1" placeholder="Number 1">
+
+            <button onclick="AddNumbers()">+</button>
+            <button onclick="SubtractNumbers()">-</button>
+            <button onclick="MultiplyNumbers()">*</button>
+            <button onclick="DivideNumbers()">/</button>
+
+            <input type="number" name="" id="num2" placeholder="Number 2">
+
+            <em>=</em>
+            <input type="number" name=" " id="total" placeholder="Output Here">
+          </div>
+
+<!-- p4 Cool Button:   Button that shows  an img                             -->
+
+        <br><h3 class="section">Part 4. Cool Button</h3>
+
+
+          <div class="answerDecor">
+            <button type="button"  onclick="clickButton()" id="universityMeme"> This is what third year economics is like!</button>
+
+             <br><img id="uniMeme" src="" alt="" />
+          </div>
+
+<!-- p5 cool buttons:   Buttons thange text                                  -->
+
+        <br><h3 class="section">Part 5. Cool Buttons</h3>
+
+          <div class="answerDecor">
+
+            <p>What do America think about Toronto?</p> <br>
+
+            <button onclick="buttonUsa()">Americans</button>
+
+            <br><p id="answerGTA"></p>
+
+          </div>
+
+
+      </div>
+
+
+	      <div class="footer">
+
+	        <div class="footerElements">
+
+	          <div class="foot">(C) 2022 Jhon Morales Carmona</div>
+	          <div class="foot">Terms: all visual content is credited to it's respective owner</div>
+
+	          <div class="foot">Contact Me:
+
+
+							<p><a href="https://www.linkedin.com/in/jhon-hamilton-morales-carmona-846b731ab/">LinkedIn</a></p>
+							<p>Email me: jm18bk@brocku.ca</p>
+						</div>
+
+	        </div>
+
+	      </div>
+
+      </div>
+
+  </body>
+
+</html>
